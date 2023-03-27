@@ -19,7 +19,6 @@ public class Main {
         System.out.println("tintenhers.name = " + tintenhers.getName());
         System.out.println("tintenhers.year = " + tintenhers.getSurname());
         System.out.println("tintenhers.getYear() = " + tintenhers.getSurname());
-
     }
 
 
