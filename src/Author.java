@@ -1,4 +1,5 @@
 public class Author {
+
     private final String name;
     private final String surname;
 
@@ -14,5 +15,4 @@ public class Author {
     public String getSurname() {
         return this.surname;
     }
-
 }

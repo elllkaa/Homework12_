@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         System.out.println("Книга 1");
         Book theShining =  new Book ("С. Кинг", 1997);
         System.out.println("theShining.Author = " + theShining.getAuthor());
@@ -20,7 +19,4 @@ public class Main {
         System.out.println("tintenhers.year = " + tintenhers.getSurname());
         System.out.println("tintenhers.getYear() = " + tintenhers.getSurname());
     }
-
-
-
 }
