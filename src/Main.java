@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Книга 1");
         Book theShining =  new Book ("С. Кинг", 1997);
-        System.out.println("theShining.Author = " + theShining.getAuthor());
+        System.out.println("theShining.author = " + theShining.getAuthor());
         System.out.println("theShining.nameBook = " + theShining.getYear());
         Author shining = new Author("Стивен ","Кинг" );
         System.out.println("shining.name = " + shining.getName());
