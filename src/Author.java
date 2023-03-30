@@ -15,4 +15,12 @@ public class Author {
     public String getSurname() {
         return this.surname;
     }
+
+    public String toString() {
+        return "Имя " + this.name + "Фамилия " + this.surname;
+    }
+
+    public int hashCode() {
+        return java.util.Objects.hash(name);
+    }
 }
